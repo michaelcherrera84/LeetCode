@@ -1,3 +1,6 @@
+import unittest
+import time
+
 class Solution:
     def longestPrefixSuffix(self, s: str) -> list[int]:
         """Construct an array where each index represents a position in a given
@@ -82,8 +85,47 @@ class Solution:
                     i += 1
 
         return -1
+    
+class TestStrStr(unittest.TestCase):
 
-sol = Solution()
-s = "abba"
-sub = "ba"
-print(sol.strStr(s, sub))
+    def setUp(self):
+        self.sol = Solution()
+
+    def test_sadbutsad_sad(self):
+        start = time.perf_counter_ns()
+        self.assertEqual(self.sol.strStr("sadbutsad", "sad"), 0)
+        end = time.perf_counter_ns()
+        print(f"Test 1: {(end - start) / 1_000_000} ms")
+
+    def test_leetcode_leeto(self):
+        start = time.perf_counter_ns()
+        self.assertEqual(self.sol.strStr("leetcode", "leeto"), -1)
+        end = time.perf_counter_ns()
+        print(f"Test 1: {(end - start) / 1_000_000} ms")
+
+    def test_basic_match(self):
+        start = time.perf_counter_ns()
+        self.assertEqual(self.sol.strStr("hello", "ll"), 2)
+        end = time.perf_counter_ns()
+        print(f"Test 1: {(end - start) / 1_000_000} ms")
+
+    def test_no_match(self):
+        start = time.perf_counter_ns()
+        self.assertEqual(self.sol.strStr("aaaaa", "bba"), -1)
+        end = time.perf_counter_ns()
+        print(f"Test 1: {(end - start) / 1_000_000} ms")
+
+    def test_full_match(self):
+        start = time.perf_counter_ns()
+        self.assertEqual(self.sol.strStr("abc", "abc"), 0)
+        end = time.perf_counter_ns()
+        print(f"Test 1: {(end - start) / 1_000_000} ms")
+
+    def test_prefix_overlap(self):
+        start = time.perf_counter_ns()
+        self.assertEqual(self.sol.strStr("abababc", "ababc"), 2)
+        end = time.perf_counter_ns()
+        print(f"Test 1: {(end - start) / 1_000_000} ms")
+
+if __name__ == "__main__":
+    unittest.main()
