@@ -4,6 +4,7 @@
   },
   "scripts": {
     "test": "jest",
-    "test:226": "jest test/_226_InvertBinaryTree.test.js"
+    "test:226": "jest test/_226_InvertBinaryTree.test.js",
+    "test:101": "jest test/_101_SymmetricTree.test.js"
   }
 }
