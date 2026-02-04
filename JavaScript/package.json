@@ -4,8 +4,9 @@
     },
     "scripts": {
         "test": "jest",
-        "test:226": "jest test/_226_InvertBinaryTree.test.js",
         "test:101": "jest test/_101_SymmetricTree.test.js",
-        "test:112": "jest test/_112_PathSum.test.js"
+        "test:112": "jest test/_112_PathSum.test.js",
+        "test:222": "jest test/_222_CountCompleteTreeNodes.test.js",
+        "test:226": "jest test/_226_InvertBinaryTree.test.js"
     }
 }
