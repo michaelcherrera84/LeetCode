@@ -1,10 +1,11 @@
 {
-  "devDependencies": {
-    "jest": "^30.2.0"
-  },
-  "scripts": {
-    "test": "jest",
-    "test:226": "jest test/_226_InvertBinaryTree.test.js",
-    "test:101": "jest test/_101_SymmetricTree.test.js"
-  }
+    "devDependencies": {
+        "jest": "^30.2.0"
+    },
+    "scripts": {
+        "test": "jest",
+        "test:226": "jest test/_226_InvertBinaryTree.test.js",
+        "test:101": "jest test/_101_SymmetricTree.test.js",
+        "test:112": "jest test/_112_PathSum.test.js"
+    }
 }
