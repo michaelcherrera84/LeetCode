@@ -1,4 +1,4 @@
-const { TreeNode, hasPathSum } = require("../src/_112_PathSum");
+const { TreeNode, hasPathSum } = require("../src/_00112_PathSum");
 
 test("example1", () => {
     const root = new TreeNode(

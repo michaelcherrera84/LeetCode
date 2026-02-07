@@ -1,4 +1,4 @@
-const { TreeNode, invertTree } = require("../src/_226_InvertBinaryTree");
+const { TreeNode, invertTree } = require("../src/_00226_InvertBinaryTree");
 
 function isSameTree(p, q) {
     if (p === null && q === null) return true;

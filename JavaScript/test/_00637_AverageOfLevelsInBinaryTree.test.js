@@ -1,4 +1,4 @@
-const { TreeNode, averageOfLevels } = require("../src/_637_AverageOfLevelsInBinaryTree");
+const { TreeNode, averageOfLevels } = require("../src/_00637_AverageOfLevelsInBinaryTree");
 
 test("example1", () => {
     const root = new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7)));

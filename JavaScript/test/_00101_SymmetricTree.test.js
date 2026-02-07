@@ -1,4 +1,4 @@
-const { TreeNode, isSymmetric } = require("../src/_101_SymmetricTree");
+const { TreeNode, isSymmetric } = require("../src/_00101_SymmetricTree");
 
 test("example1", () => {
     const root = new TreeNode(
