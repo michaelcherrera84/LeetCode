@@ -23,6 +23,7 @@ public class Solution {
      * @return {@code true} if {@code s} and {@code t} are isomorphic, or
      * {@code false} otherwise
      */
+    @SuppressWarnings({"BoxedValueEquality", "NumberEquality"})
     public boolean isIsomorphic(String s, String t) {
 
         // mapping of letters from `s` to `t`.

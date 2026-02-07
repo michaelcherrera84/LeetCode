@@ -1,5 +1,6 @@
 package _00141_LinkedListCycle;
 
+@SuppressWarnings("unused")
 class ListNode {
 
     int val;
@@ -28,7 +29,7 @@ public class Solution {
      * @return {@code true} if there is a cycle in the linked list. Otherwise,
      * return {@code false}
      */
-    public boolean hasCycle(ListNode head) {
+    boolean hasCycle(ListNode head) {
 
         if (head == null || head.next == null) {
             return false;

@@ -3,6 +3,7 @@ package _00226_InvertBinaryTree;
 /**
  * Definition for a binary tree node.
  */
+@SuppressWarnings("unused")
 class TreeNode {
 
     int val;
@@ -33,7 +34,7 @@ public class Solution {
      * @param root the root of a binary tree
      * @return the root of the inverted tree
      */
-    public TreeNode invertTree(TreeNode root) {
+    TreeNode invertTree(TreeNode root) {
 
         // If root is null, we've reached the bottom of the tree, or there is no tree.
         if (root == null) {

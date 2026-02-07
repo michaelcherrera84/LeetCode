@@ -8,6 +8,7 @@ import java.util.Queue;
 /**
  * Definition for a binary tree node.
  */
+@SuppressWarnings("unused")
 class TreeNode {
 
     int val;
@@ -28,6 +29,7 @@ class TreeNode {
     }
 }
 
+@SuppressWarnings("unused")
 public class Solution {
 
     /**
@@ -37,7 +39,7 @@ public class Solution {
      * @param root the root of a binary tree
      * @return the average value of the nodes on each level
      */
-    public List<Double> averageOfLevels(TreeNode root) {
+    List<Double> averageOfLevels(TreeNode root) {
         List<Double> averages = new ArrayList<>();      // list of average values
         Queue<TreeNode> nodes = new LinkedList<>();     // nodes waiting to add
         

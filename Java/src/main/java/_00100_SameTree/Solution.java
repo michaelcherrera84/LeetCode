@@ -1,6 +1,7 @@
 package _00100_SameTree;
 
 // Definition for a binary tree node.
+@SuppressWarnings("unused")
 class TreeNode {
 
     int val;
@@ -35,7 +36,7 @@ public class Solution {
      * @return {@code true} if the binary trees are the same, or {@code false}
      * otherwise
      */
-    public boolean isSameTree(TreeNode p, TreeNode q) {
+    boolean isSameTree(TreeNode p, TreeNode q) {
         // If both nodes are null, they are equal.
         if (p == null && q == null) {
             return true;

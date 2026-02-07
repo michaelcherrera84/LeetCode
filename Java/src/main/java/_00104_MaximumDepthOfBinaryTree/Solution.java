@@ -1,5 +1,6 @@
 package _00104_MaximumDepthOfBinaryTree;
 
+@SuppressWarnings("unused")
 class TreeNode {
 
     int val;
@@ -20,6 +21,7 @@ class TreeNode {
     }
 }
 
+@SuppressWarnings("unused")
 public class Solution {
 
     /**
@@ -32,7 +34,7 @@ public class Solution {
      * @param root the root node of the binary tree
      * @return the maximum depth of the binary tree
      */
-    public int maxDepth(TreeNode root) {
+    int maxDepth(TreeNode root) {
         if (root == null) {
             return 0;
         }

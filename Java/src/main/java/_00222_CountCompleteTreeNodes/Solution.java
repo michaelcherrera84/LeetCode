@@ -3,6 +3,7 @@ package _00222_CountCompleteTreeNodes;
 /**
  * Definition for a binary tree node.
  */
+@SuppressWarnings("unused")
 class TreeNode {
 
     int val;
@@ -38,7 +39,7 @@ public class Solution {
      * @param root the root of a complete binary tree
      * @return the number of nodes in the tree
      */
-    public int countNodes(TreeNode root) {
+    int countNodes(TreeNode root) {
         if (root == null) {
             return 0;
         }

@@ -30,7 +30,7 @@ public class Solution {
      * @param list2 the head of the second sorted linked list
      * @return the head of the merged linked list
      */
-    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+    ListNode mergeTwoLists(ListNode list1, ListNode list2) {
 
         if (list1 == null && list2 == null) {
             return null;
