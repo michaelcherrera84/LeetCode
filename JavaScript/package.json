@@ -8,6 +8,7 @@
         "test:112": "jest test/_00112_PathSum.test.js",
         "test:222": "jest test/_00222_CountCompleteTreeNodes.test.js",
         "test:226": "jest test/_00226_InvertBinaryTree.test.js",
+        "test:530": "jest test/_00530_MinimumAbsoluteDifferenceInBST.test.js",
         "test:637": "jest test/_00637_AverageOfLevelsInBinaryTree.test.js"
     }
 }
