@@ -4,6 +4,7 @@
     },
     "scripts": {
         "test": "jest",
+        "test:9": "jest test/_00009_PalindromeNumber.test.js",
         "test:35": "jest test/_00035_SearchInsertPosition.test.js",
         "test:67": "jest test/_00067_AddBinary.test.js",
         "test:101": "jest test/_00101_SymmetricTree.test.js",
