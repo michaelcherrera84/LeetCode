@@ -9,6 +9,7 @@
         "test:66": "jest test/_00066_PlusOne.test.js",
         "test:67": "jest test/_00067_AddBinary.test.js",
         "test:69": "jest test/_00069_Sqrt_x_.test.js",
+        "test:70": "jest test/_00070_ClimbingStairs.test.js",
         "test:101": "jest test/_00101_SymmetricTree.test.js",
         "test:108": "jest test/_00108_ConvertSortedArrayToBinarySearchTree.test.js",
         "test:112": "jest test/_00112_PathSum.test.js",
