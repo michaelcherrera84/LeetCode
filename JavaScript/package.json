@@ -14,6 +14,7 @@
         "test:108": "jest test/_00108_ConvertSortedArrayToBinarySearchTree.test.js",
         "test:112": "jest test/_00112_PathSum.test.js",
         "test:136": "jest test/_00136_SingleNumber.test.js",
+        "test:189": "jest test/_00189_RotateArray.test.js",
         "test:190": "jest test/_00190_ReverseBits.test.js",
         "test:191": "jest test/_00191_NumberOf1Bits.test.js",
         "test:222": "jest test/_00222_CountCompleteTreeNodes.test.js",
