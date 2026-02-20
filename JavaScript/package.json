@@ -6,6 +6,7 @@
         "test": "jest",
         "test:9": "jest test/_00009_PalindromeNumber.test.js",
         "test:35": "jest test/_00035_SearchInsertPosition.test.js",
+        "test:55": "jest test/_00055_JumpGame.test.js",
         "test:66": "jest test/_00066_PlusOne.test.js",
         "test:67": "jest test/_00067_AddBinary.test.js",
         "test:69": "jest test/_00069_Sqrt_x_.test.js",
