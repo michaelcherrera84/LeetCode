@@ -15,6 +15,7 @@
         "test:101": "jest test/_00101_SymmetricTree.test.js",
         "test:108": "jest test/_00108_ConvertSortedArrayToBinarySearchTree.test.js",
         "test:112": "jest test/_00112_PathSum.test.js",
+        "test:134": "jest test/_00134_GasStation.test.js",
         "test:136": "jest test/_00136_SingleNumber.test.js",
         "test:189": "jest test/_00189_RotateArray.test.js",
         "test:190": "jest test/_00190_ReverseBits.test.js",
