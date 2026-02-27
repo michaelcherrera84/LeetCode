@@ -16,11 +16,11 @@ public class SolutionTest {
 
     @Test
     void example1() {
-        assertEquals(sol.convert("PAYPALISHIRING", 3), "PAHNAPLSIIGYIR");
+        assertEquals("PAHNAPLSIIGYIR", sol.convert("PAYPALISHIRING", 3));
     }
 
     @Test
     void example2() {
-        assertEquals(sol.convert("PAYPALISHIRING", 4), "PINALSIGYAHRPI");
+        assertEquals("PINALSIGYAHRPI", sol.convert("PAYPALISHIRING", 4));
     }
 }
