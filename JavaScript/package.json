@@ -23,6 +23,7 @@
         "test:189": "jest test/_00189_RotateArray.test.js",
         "test:190": "jest test/_00190_ReverseBits.test.js",
         "test:191": "jest test/_00191_NumberOf1Bits.test.js",
+        "test:209": "jest test/_00209_MinimumSizeSubarraySum.test.js",
         "test:222": "jest test/_00222_CountCompleteTreeNodes.test.js",
         "test:226": "jest test/_00226_InvertBinaryTree.test.js",
         "test:238": "jest test/_00238_ProductOfArrayExceptSelf.test.js",
