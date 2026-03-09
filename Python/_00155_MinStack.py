@@ -74,7 +74,7 @@ class Test_MinStack(unittest.TestCase):
             elif op == "getMin":
                 results.append(self.stack.getMin())
 
-        self.assertEqual(results, [None, None, None, -3, None, 0, -2])
+        self.assertEqual([None, None, None, -3, None, 0, -2], results)
 
 if __name__ == "__main__":
     unittest.main()
