@@ -2,3 +2,4 @@
 Java/target/
 Java/.vscode/settings.json
 Java/src/main/java/.settings/org.eclipse.jdt.core.prefs
+Java/.vscode/java-formatter.xml
