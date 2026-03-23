@@ -38,14 +38,14 @@ class Solution:
             # If there is a node to the left of the current node...
             if not curr.left:
                 # If we have already validated a node, then this node's value
-                # should be greater than the previous nodes value.
+                # should be greater than the previous node's value.
                 if prev and curr.val <= prev.val:
                     return False
                 # Otherwise, this node is valid. Set this node as the previous
-                # node and advance the current node.
+                # node.
                 prev = curr
                 # Advance to right child (which may be a threaded link back to 
-                # an ancestor)
+                # an ancestor).
                 curr = curr.right
             else:
                 # The left node should be a predecessor to the current node.
@@ -63,7 +63,7 @@ class Solution:
                     pred.right = curr
                     curr = curr.left
                 # Otherwise, the right node is the current node. Now this
-                # predecessor's right node should be returned to it's original
+                # predecessor's right node should be returned to its original
                 # value of `None`.
                 else:
                     pred.right = None
