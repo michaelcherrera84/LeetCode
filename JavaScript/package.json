@@ -30,7 +30,8 @@
         "test:226": "jest test/_00226_InvertBinaryTree.test.js",
         "test:238": "jest test/_00238_ProductOfArrayExceptSelf.test.js",
         "test:274": "jest test/_00274_H-Index.test.js",
-        "test:380": "jest test/_00380_InsertDeleteGetRandomOof1.test/js",
+        "test:380": "jest test/_00380_InsertDeleteGetRandomOof1.test.js",
+        "test:433": "jest test/_00433_MinimumGeneticMutation.test.js",
         "test:530": "jest test/_00530_MinimumAbsoluteDifferenceInBST.test.js",
         "test:637": "jest test/_00637_AverageOfLevelsInBinaryTree.test.js",
         "test:909": "jest test/_00909_SnakesAndLadders.test.js"
