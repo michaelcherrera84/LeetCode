@@ -17,7 +17,14 @@ add_executable(test151
   test/_00151_ReverseWordsInAString_test.cpp
 )
 
+add_executable(test909
+  src/_00909_SnakesAndLadders.cpp
+  test/_00909_SnakesAndLadders_test.cpp
+)
+
 target_link_libraries(test151 gtest_main)
+target_link_libraries(test909 gtest_main)
 
 enable_testing()
-add_test(NAME runTests COMMAND runTests)
+add_test(NAME test151 COMMAND test151)
+add_test(NAME test909 COMMAND test909)
