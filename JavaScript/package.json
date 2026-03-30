@@ -32,6 +32,7 @@
         "test:274": "jest test/_00274_H-Index.test.js",
         "test:380": "jest test/_00380_InsertDeleteGetRandomOof1.test/js",
         "test:530": "jest test/_00530_MinimumAbsoluteDifferenceInBST.test.js",
-        "test:637": "jest test/_00637_AverageOfLevelsInBinaryTree.test.js"
+        "test:637": "jest test/_00637_AverageOfLevelsInBinaryTree.test.js",
+        "test:909": "jest test/_00909_SnakesAndLadders.test.js"
     }
 }
