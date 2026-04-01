@@ -7,6 +7,7 @@
         "test:6": "jest test/_00006_ZigzagConversion.test.js",
         "test:9": "jest test/_00009_PalindromeNumber.test.js",
         "test:15": "jest test/_00015_3Sum.test.js",
+        "test:17": "jest test/_00017_LetterCombinationsOfAPhoneNumber.test.js",
         "test:35": "jest test/_00035_SearchInsertPosition.test.js",
         "test:36": "jest test/_00036_ValidSudoku.test.js",
         "test:45": "jest test/_00045_JumpGameII.test.js",
