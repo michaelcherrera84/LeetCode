@@ -36,13 +36,13 @@ class WordDictionary:
         """
 
         curr = self.root
-
+        
         for c in word:
             child_index = ord(c) - ord("a")
             if curr.children[child_index] is None:
                 curr.children[child_index] = WordDictionary.TrieNode()
             curr = curr.children[child_index]
-
+        
         curr.is_end_of_word = True
 
     def search(self, word: str) -> bool:
