@@ -12,9 +12,9 @@ class Trie:
 
         Attributes:
             children (dict): list of characters that can immediately follow 
-            this character
+                this character
             isEndOfWord (bool): `True` is this character is the end of a word or
-            `False` otherwise
+                `False` otherwise
 
         """
         def __init__(self):
