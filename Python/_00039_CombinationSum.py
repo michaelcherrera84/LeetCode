@@ -50,7 +50,7 @@ class Solution:
                 # We do not need to explore this path if this candidate added to
                 # the combination would result in a sum greater than the target.
                 if candidates[i] > remaining:
-                    break
+                    continue
                 combination.append(candidates[i])
                 find_combinations(i, combination, remaining - candidates[i])
                 combination.pop()
