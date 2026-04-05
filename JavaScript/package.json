@@ -23,6 +23,7 @@
         "test:133": "jest test/_00133_CloneGraph.test.js",
         "test:134": "jest test/_00134_GasStation.test.js",
         "test:136": "jest test/_00136_SingleNumber.test.js",
+        "test:148": "jest test/_00148_SortList.test.js",
         "test:151": "jest test/_00151_ReverseWordsInAString.test.js",
         "test:189": "jest test/_00189_RotateArray.test.js",
         "test:190": "jest test/_00190_ReverseBits.test.js",
